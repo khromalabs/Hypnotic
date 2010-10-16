@@ -1,0 +1,9 @@
+@echo off
+c:\exobit\utils\pcx2dat\pcx2dat.exe %1.pcx %2 %3
+rem c:\exobit\utils\dat2inc\dat2inc.exe %1.dat
+rem del %1.dat
+rem move %1.inc c:\exobit\inc\%1.inc
+rem x lib
+rem call makedata.bat
+rem x exobit
+rem m_ex 2

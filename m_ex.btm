@@ -1,0 +1,22 @@
+@echo off
+if "%1" == "1" GOTO DO1
+if "%1" == "2" GOTO DO2
+
+tasm /ml /m2 /q demo.asm
+copy hypnotic.exe old.exe >> nul
+tlink /3 /x /A=16 pmode demo exomot.lib lib\pmlib.lib xmp.lib fw.obj fwdata.obj, hypnotic
+GOTO FIN
+
+:DO1
+tasm /ml /m2 /q fw.asm
+tasm /ml /m2 /q fwdata.asm
+
+tasm /ml /m2 /q demo.asm
+GOTO FIN
+
+:DO2
+copy hypnotic.exe old.exe >> nul
+tlink /3 /x /A=16 pmode demo exomot.lib lib\pmlib.lib xmp.lib fw.obj fwdata.obj, hypnotic
+
+:FIN
+echo.

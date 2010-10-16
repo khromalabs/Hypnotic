@@ -1,0 +1,17 @@
+@echo off
+
+REM Mapas y objetos parte 1
+copy burbu.shp/b+3dmotion.shp/b+art.shp/b+muznplay.shp/b+khroma.shp/b+artqvo.shp/b+mentat.shp/b+devsmile.shp/b+morsmile.shp/b+male.shp/b+female.shp/b+hypnlog.shp/b+hypneye.shp/b+peace.shp/b hypnotic.1/b
+copy env-hypc.dat/b+env-hypn.dat/b+mask.dat/b+presents.dat/b+sky.dat/b+skymap.dat/b+skymap2.dat/b+thebests.dat/b+presents.col/b+hyplogo.col+burbuja.col+thebests.col+eye2.dat/b hypnotic.2/b
+
+REM Mapas y objetos parte 2
+copy planet.shp/b+piva.shp/b+pl-house.*/b+pl-sue12.*/b+pl-sue34.*/b+pl-tree.*/b+pl-misc.*/b+pv-head.dat/b+pv-tits.dat/b+pv-butt.dat/b+pv-misc.dat/b+spiral.dat+pepe.dat/b+thebests.col/b+planeta.col/b+piva.col/b hypnotic.3/b
+copy piva2b.col/b+piva2a.col/b+fuente.bin/b+fworks1.col/b+piva2ab.col/b+piva2ba.col/b+piva2bb.col/b+piva2bc.col/b+piva2bd.col/b hypnotic.4/b
+
+
+REM Fichero final
+copy hypnotic.1/b+hypnotic.2/b+hypnotic.3/b+hypnotic.4/b+hyp2.xm/b hypnotic.dat/b
+del hypnotic.1 >> nul
+del hypnotic.2 >> nul
+del hypnotic.3 >> nul
+del hypnotic.4 >> nul

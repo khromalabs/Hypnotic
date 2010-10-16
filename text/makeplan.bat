@@ -1,0 +1,9 @@
+pcx2dat pl-tech.pcx
+pcx2dat pl-camn.pcx
+pcx2dat pl-home.pcx
+pcx2dat pl-sue1.pcx
+pcx2dat pl-sue2.pcx
+pcx2dat pl-sue3.pcx
+pcx2dat pl-sue4.pcx
+pcx2dat pl-sue5.pcx
+pcx2dat pl-tree1.pcx

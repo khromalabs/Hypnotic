@@ -1,0 +1,27 @@
+@echo off
+REM Paso 1
+c:\exobit\utils\3doc\piva.exe seq1\1danz01.asc seq1\
+c:\exobit\utils\3doc\piva.exe seq1\1danz02.asc seq1\
+c:\exobit\utils\3doc\piva.exe seq1\1danz03.asc seq1\
+c:\exobit\utils\3doc\piva.exe seq1\1danz04.asc seq1\
+c:\exobit\utils\3doc\piva.exe seq1\1danz05.asc seq1\
+c:\exobit\utils\3doc\piva.exe seq1\1danz06.asc seq1\
+c:\exobit\utils\3doc\piva.exe seq1\1danz07.asc seq1\
+c:\exobit\utils\3doc\piva.exe seq1\1danz08.asc seq1\
+REM Paso 2
+c:\exobit\utils\3doc\piva.exe seq2\2danz01.asc seq2\
+c:\exobit\utils\3doc\piva.exe seq2\2danz02.asc seq2\
+c:\exobit\utils\3doc\piva.exe seq2\2danz03.asc seq2\
+c:\exobit\utils\3doc\piva.exe seq2\2danz04.asc seq2\
+c:\exobit\utils\3doc\piva.exe seq2\2danz05.asc seq2\
+c:\exobit\utils\3doc\piva.exe seq2\2danz06.asc seq2\
+REM Paso 3
+c:\exobit\utils\3doc\piva.exe seq3\3danz01.asc seq3\
+c:\exobit\utils\3doc\piva.exe seq3\3danz02.asc seq3\
+c:\exobit\utils\3doc\piva.exe seq3\3danz03.asc seq3\
+c:\exobit\utils\3doc\piva.exe seq3\3danz04.asc seq3\
+c:\exobit\utils\3doc\piva.exe seq3\3danz05.asc seq3\
+c:\exobit\utils\3doc\piva.exe seq3\3danz06.asc seq3\
+REM Paso 4
+c:\exobit\utils\3doc\piva.exe seq4\4danz01.asc seq4\
+c:\exobit\utils\3doc\piva.exe seq4\4danz02.asc seq4\

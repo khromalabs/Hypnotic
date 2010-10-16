@@ -1,0 +1,245 @@
+
+                                                                        мм  м
+                                                                  мммллпп мп
+                             ммммммм      ммммммммммлллллллллллллппп  ммлп
+                м  м   олм млллпппплллм  пллллпппппплллллпп  м     млллп
+               ллнолн   лл олл      пллл  м      мл  ллл    плл  мллп
+        м     ллл ол   олн  ллл     лллп ллн    олн оллн    м   ллп
+       ллм  мллл  лл   лл  оллн млллпп  лллл    лл  ллн    ллн лл     мп
+       ллллпппллн оллмллн  ллллллпп  ммллллн   лл  олл    ллл олл   мл
+       ллн    олл  ллллп  ллллп   мллпп млл   лл    лл   лллн  лллмлп
+       олл    ллн  лллл  лллл    ллн   ллл   лл    ллн  оллп    плп
+       ллл    лл   оллн лллл    ллн   ллл  млп    ллн   ллп
+       ллл   ол    ллл оллл    ллл   ллллмлл     ллн   ллп
+        п    лн   ллл  ллл   мллп     пппп      ллн   ллп
+            лн   ллл  лллн млпп   мммммлллллм  ллп   ллл
+           лн  мллл  ллл  ол   мллпппп   лллп лл      п
+          п  млллп мллп   п   лл   мммммлпп млп
+         ммллпп   ллп          плллппп
+     ммллпп
+    ллп                                         A Demo By
+                                                   EXOBIT
+
+
+
+
+
+    DISCLAIMER
+    ЭЭЭЭЭЭЭЭЭЭ
+
+
+  This material is not freeware. You are allowed to copy it without
+restrictions for non-commercial use.
+
+  You take full responsibility for the use of this software and any
+consequences thereof.
+
+  The copyright of this software if reserved by we, the autors. That means
+that this demo must be distributed without changes of any kind in all the
+files that compose it. Unleast you are a lamer we hope that you'll understand
+why we ask this. ;)
+
+  A final disclamer, if you are epileptic *PLEASE DON'T RUN THIS DEMO* some
+visual effects may be dangerous for your health.
+
+
+
+
+    REQUIREMENTS
+    ЭЭЭЭЭЭЭЭЭЭЭЭ
+
+
+  This demo requires a 486DX, VGA & 4 free megs RAM to run. (5 if you make it
+with Sound Blaster sound).
+
+  Here is, at end, the SB supporting version, toooo late but is better late
+than never... no? ;) By the way, the demo has a few improvements....
+
+  Have in mind that the minimum required to run the demo is a 486DX, but to
+make it softenly, a fast 486 is needed, or better a Pentium.
+
+  About the DOS configurations to run the demo, we haven't detected any
+kind of problem running it with all kinds of configurations...
+
+That's true, under W'95 _doesn't work_. Of coz, in a DOS sesion it'll do. ;)
+
+
+
+
+    WHAT IS EXOBIT?
+    ЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭ
+
+
+  Exobit is one of the new groups that are forming in Spain, we are all under
+19 years old & all love the computers...
+
+  Artqvo has been studing art since two years ago, but his affection to draw,
+paint & sculpture is very earlier (since his birth I think) and this is
+reflected in this demo...
+
+  Mentat is trying to join into the profesional tecno-dance music scene...
+wait a few years (may be less) to watch the results... listen some of his
+last modules to understand why... ;)
+
+  Khroma continous working in his 3D engine, maybe you can see a game from us
+in not too much time.
+
+  Hey! We have forgotten to say our truly names... Khroma is Ruben Gomez, Mentat
+is Diego Linares, and Artqvo, Carlos Geijo.
+
+
+
+
+
+    TECH STUFF
+    ЭЭЭЭЭЭЭЭЭЭ
+
+
+  Excepting Pmode 2.4, all the code, graphics & music that compose this demo
+has been made _integrally_ by us.
+
+  The code is *100% ASSEMBLY* ;)) and ALL you have watched in this demo are
+real time effects, no precalculated animations at all...
+
+All these things are direct responsabilities of these:
+
+ Khroma (3D Engine, main & auxiliar coding, sync & paths with any other help
+         that his text editor... ARGH!)
+ Mentat (XM Player, music, fireworks code, planet's paths, and modelling)
+ Artqvo (All the 2D & 3D art that comes with this demo, excepting the planet)
+
+Some tech info about the scenes that compose this demo:
+
+  - The initial logo scene is composed of two objects, one with 1200 faces
+    plus the other with 300 faces, rendered with motion blur, antialias,
+    diferent enviroment textures & the final bitmap with interpolated fade.
+  - In the sky scene, all the objects are transparent plus at maximum in
+    screen, 12 bubbles, (90 faces for each bubble), that of coz are
+    transparent too. BTW, all the objects are enviroment-mapping shaded, too.
+  - Did you recognize us in the picture? ;D
+  - The planet is a mesh of about 2500 polys with multiple textures & gouraud
+    shading, 1500 3D flickering stars, owns & camera movings and rotations, 
+    plus a bitmap scaled by the Z with different levels of transparency
+    representing the real position of the light point.
+  - The star is a real time calculated fire effect, circular mapped,
+    and scaled by the Z too, plus the inner animation, that, appearing to be
+    2D are really 3D calculations... of course, the background stars 
+    continous being 3D. (We are too lazy to do 2 rutines for the same effect
+    in the same demo ;D)
+  - The girl scene is a mesh of about 2400 polys with gouraud, morphings,
+    multiple textures & camera movings and rotations too.
+  - The final firework effect & the ground stars are, like all the demo,
+    3D, but Mentat is "out of strengs" :D to make it rotate that means that 
+    by this time you'll have to trust in our words. ;)
+
+All the demo goes in 320x240 tweaked mode, and excepting the bubbles & logo
+scenes, demo don't use virtual screens of any kind... ;)
+
+The Player, like the rest of the demo is 100% ASM, at the moment supports
+the XM format, and, refering to the sound cards supported, by the moment
+GUS PnP (Advanced Gravis Rulez!), GUS, & SB. In the future, (and if we can
+take one) it'll support AWE in native mode.
+
+
+
+
+    HISTORY OF THIS DEMO
+    ЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭ
+
+
+  This demo was started some day of May with the simple idea of have fun and
+present it to the Cangas Party 96, really not pretending too much... but then
+we couldn't finish it, and then we stop there the develop along some weeks.
+
+  Some time after, we decide that we could improve and present it to the
+Euskal Party IV (last July Week) but the history started again and we couln't
+finish it before deadline... (the improvements were really hard... ok and we
+are really lazy too... X-) )
+
+  Anyhow, we decide to present a beta version, that happily on-line hanged
+in front of 600 stared eyes... Althought, the final was really wonderful,
+finally the demo worked on the big screen... and for our BIG surprise, and
+spite of was our first demo, the people put us with his votings in the second
+place...
+
+  After some month of extreme lazyness and hard female persecution :D here
+comes the final and last version of Hypnotic... we hope that you have enjoyed
+our work, and will be attent to our next production... this summer! ;)
+
+
+
+
+    WHERE YOU CAN FIND OUR PRODUCTIONS
+    ЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭ
+
+
+  If you live near Madrid, (or have lot of money to waste in telephone :D) you
+can call to our WHQ BBS (indicated at bottom) to download our last works... 
+Mentat has a dedicated module area...
+
+  Along the Internet, you can find three songs of him in the direction:
+ftp.cdrom.com/pub/demos/music/songs/1996/xm/m/,
+
+  m-chld.zip (Robert Miles' Children XM version)
+  m-ddm2.zip
+  m-light.zip
+
+  Currently we are searching some ftp server (*stable* if possible) in witch
+we can put all our productions in a own directory... if you are the rooter of
+one and you are interested in it, please send us a mail to the Khroma's
+address...
+
+
+
+
+    DEDICATIONS
+    ЭЭЭЭЭЭЭЭЭЭЭ
+
+
+  Khroma wants to dedicate all his work to his loved people that currently
+aren't between us, specially to his aunt M. Luisa.
+
+  Artqvo dedicates all his work with love, to his SIrenita.
+
+  Mentat want's to greet to all his friends, family, neightbourds, 
+fellow-citizens, comrades, humans, animals, aliens, and overall, to all that
+are watching me %-)
+
+
+
+    HOW YOU CAN CONTACT WITH US
+    ЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭЭ
+
+
+Wanna contact us for any reason? Send a mail to some of these address:
+(Be patient with the answer, please, we are really very busy ;) )
+
+
+Khroma:
+
+    khroma@arrakis.es		    Internet (better this way)
+    khroma@temple.subred.org           ""
+    2:341/136.5 		    Fido
+
+Artqvo:
+
+    artqvo@temple.subred.org        Internet
+    2:341/136.26		    Fido
+
+Mentat:
+
+    mentat@temple.subred.org        Internet
+    2:341/136 			    Fido
+
+World Wide Web:
+
+    www.arrakis.es/~khroma
+
+
+Remember to call our WHQ to download our last productions:
+  EDiSoN's TeMPLe BBS њ:њ  34-1-5510065  њ:њ ... CoMe To TeMPle ... ;)
+
+
+
+                                      њOњ
+

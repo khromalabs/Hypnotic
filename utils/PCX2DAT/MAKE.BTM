@@ -1,0 +1,20 @@
+@echo off
+if "%1" == "GNU" GOTO GNU
+if "%1" == "gnu" GOTO GNU
+
+:WATCOM
+wcl386 /l=pmodew /bt=dos c:\exobit\utils\pcx2dat\pcx2dat
+del pcx2dat.obj >> nul
+GOTO END
+
+
+:GNU
+echo Compiling...
+gcc pcx2dat.c -o pcx2dat
+echo Stripping...
+strip pcx2dat
+echo Generating executable...
+coff2exe pcx2dat
+del pcx2dat >> nul
+
+:END

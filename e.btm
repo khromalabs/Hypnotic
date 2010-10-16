@@ -1,0 +1,60 @@
+@echo off
+if "%1" == "" GOTO DODEMO
+if "%1" == "0" GOTO DO0
+if "%1" == "1" GOTO DO1
+if "%1" == "2" GOTO DO2
+if "%1" == "3" GOTO DO3
+if "%1" == "4" GOTO DO4
+if "%1" == "7" GOTO DO7
+if "%1" == "8" GOTO DO8
+if "%1" == "10" GOTO DO10
+GOTO FIN
+
+:DODEMO
+@edit demo.asm inc\structs.inc inc\path.inc 3deng.asm vga.asm math.asm timer.asm poly.asm fire.asm stars.asm %2 %3 -4
+@echo.
+GOTO FIN
+
+:DO0
+@edit 3deng.asm math.asm inc\structs.inc %2 %3
+@echo.
+GOTO FIN
+
+:DO1
+@edit vga.asm inc\structs.inc %2 %3
+@echo.
+GOTO FIN
+
+:DO2
+@edit math.asm 3deng.asm inc\structs.inc %2 %3
+@echo.
+GOTO FIN
+
+:DO3
+@edit timer.asm inc\structs.inc %2 %3
+@echo.
+GOTO FIN
+
+:DO4
+@edit poly.asm inc\structs.inc %2 %3
+@echo.
+GOTO FIN
+
+:DO7
+@edit fire.asm inc\structs.inc %2 %3
+@echo.
+GOTO FIN
+
+:DO8
+@edit stars.asm inc\structs.inc %2 %3
+@echo.
+GOTO FIN
+
+
+:DO10
+@edit 3deng.asm vga.asm poly.asm inc\structs.inc %2 %3
+@echo.
+GOTO FIN
+
+
+:FIN
